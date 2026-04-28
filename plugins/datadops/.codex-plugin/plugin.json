@@ -1,0 +1,49 @@
+{
+  "name": "datadops",
+  "version": "1.0.0",
+  "description": "Intelligent Datadog workflows for incident response, performance investigation, and deployment validation.",
+  "author": {
+    "name": "Abdelhamid Benmeziane",
+    "email": "ahmidbbc@gmail.com",
+    "url": "https://github.com/ahmidbbc"
+  },
+  "homepage": "https://github.com/ahmidbbc/datadops-codex",
+  "repository": "https://github.com/ahmidbbc/datadops-codex",
+  "license": "MIT",
+  "keywords": [
+    "datadog",
+    "monitoring",
+    "observability",
+    "incident-response",
+    "performance",
+    "deployment",
+    "apm",
+    "metrics",
+    "logs",
+    "sre",
+    "devops"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "DatadOps",
+    "shortDescription": "Datadog incident response and service health workflows",
+    "longDescription": "Operational Codex workflows for Datadog service health checks, incident response, performance investigations, and deployment validation.",
+    "developerName": "Abdelhamid Benmeziane",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/ahmidbbc/datadops-codex",
+    "privacyPolicyURL": "https://github.com/ahmidbbc/datadops-codex/blob/main/plugins/datadops/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/ahmidbbc/datadops-codex/blob/main/plugins/datadops/TERMS.md",
+    "brandColor": "#1D4ED8",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Summarize the health of our production services.",
+      "Investigate why the payment service is failing.",
+      "Validate a deployment using Datadog signals."
+    ]
+  }
+}
