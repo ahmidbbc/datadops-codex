@@ -8,6 +8,12 @@ It provides reusable operational workflows for:
 - performance investigations
 - deployment health checks
 
+## Demo
+
+Watch the plugin in action on GitHub:
+
+https://github.com/user-attachments/assets/72c35f1d-fea3-4852-9b07-f7f00b0e950c
+
 ## Plugin location
 
 The actual plugin package lives in:
@@ -22,15 +28,6 @@ plugins/datadops
 - `@incident-response`
 - `@performance-investigation`
 - `@deployment-health-check`
-
-## Demo
-
-Watch the plugin in action on GitHub:
-
-
-Preview:
-
-![DatadOps demo teaser](./plugins/datadops/assets/datadops-demo-teaser.gif)
 
 ## Repository contents
 
